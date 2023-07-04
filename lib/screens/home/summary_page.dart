@@ -75,9 +75,9 @@ class SummaryPage extends StatelessWidget {
                         height: 40,
                       ),
                       const SizedBox(width: 20),
-                      Column(
+                      const Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
+                        children: [
                           Text(
                             'Master Card',
                             style: TextStyle(

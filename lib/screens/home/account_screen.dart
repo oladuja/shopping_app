@@ -29,10 +29,10 @@ class AccountScreen extends StatelessWidget {
                 const SizedBox(
                   width: 20,
                 ),
-                Column(
+                const Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisSize: MainAxisSize.min,
-                  children: const [
+                  children: [
                     Text(
                       'David Spade',
                       style: TextStyle(

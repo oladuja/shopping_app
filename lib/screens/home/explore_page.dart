@@ -73,13 +73,13 @@ class ExplorePage extends StatelessWidget {
               ),
             ),
             const CategoryList(),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 5),
+            const Padding(
+              padding: EdgeInsets.symmetric(vertical: 5),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.baseline,
                 textBaseline: TextBaseline.alphabetic,
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
+                children: [
                   Text(
                     'Best Selling',
                     style: TextStyle(
